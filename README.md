@@ -2,7 +2,15 @@
 This library wraps Video4Linux commands that allow you to change settings on your camera while you are using it, hopefully resulting in simpler and more user-friendly commands than what `v4l2` offers out of the box.
 
 ### Index
+1. [Aliases](README.md#aliases)
+    1. [cameras](README.md#cameras)
 1. [Usage](README.md#usage)
+
+## Aliases
+This library contains the following aliases for changing your camera settings.
+
+### cameras
+List the available video input devices.
 
 ## Usage
 Make a folder for these types of scripts and aliases to exist, if you don't have one already.
