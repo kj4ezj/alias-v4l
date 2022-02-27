@@ -13,12 +13,29 @@ This library contains the following aliases for changing your camera settings.
 
 ### cameras
 List the available video input devices.
+```bash
+cameras
+```
 
 ### exposure
-Change the exposure. Requires an argument of either the absolute exposure, or `auto`.
+Change the exposure. Requires an argument of either the absolute exposure...
+```bash
+exposure 512
+```
+...or `auto`.
+```bash
+exposure auto
+```
 
 ### wb
-Change the white balance. Requires an argument of either the desired color temperature in Kelvin, or `auto`.
+Change the white balance. Requires an argument of either the desired color temperature in Kelvin...
+```bash
+wb 5000
+```
+...or `auto`.
+```bash
+wb auto
+```
 
 ## Usage
 Make a folder for these types of scripts and aliases to exist, if you don't have one already.
