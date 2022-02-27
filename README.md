@@ -49,6 +49,6 @@ git clone --recursive git@github.com:kj4ezj/alias-v4l.git
 ```
 Then, source `v4l.sh` in your `~/bashrc`, `~/bash_aliases`, `~/bash_profile`, or similar.
 ```bash
-source ~/.bash/alias-v4l/git.sh
+source ~/.bash/alias-v4l/v4l.sh
 ```
 Finally, restart your shell to use these aliases.
