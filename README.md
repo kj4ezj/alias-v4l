@@ -7,6 +7,7 @@ This library wraps Video4Linux commands that allow you to change settings on you
     1. [exposure](README.md#exposure)
     1. [wb](README.md#wb)
 1. [Installation](README.md#installation)
+    1. [Prerequisites](README.md#prerequisites)
 
 ## Aliases
 This library contains the following aliases for changing your camera settings.
@@ -52,3 +53,12 @@ Then, source `v4l.sh` in your `~/bashrc`, `~/bash_aliases`, `~/bash_profile`, or
 source ~/.bash/alias-v4l/v4l.sh
 ```
 Finally, restart your shell to use these aliases.
+
+### Prerequisites
+You must have Video4Linux installed to use these scripts.
+
+On Debian-family Linuxes, inluding Ubuntu and Mint:
+```bash
+apt update
+apt install -y v4l-utils
+```
