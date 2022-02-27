@@ -6,7 +6,7 @@ This library wraps Video4Linux commands that allow you to change settings on you
     1. [cameras](README.md#cameras)
     1. [exposure](README.md#exposure)
     1. [wb](README.md#wb)
-1. [Usage](README.md#usage)
+1. [Installation](README.md#installation)
 
 ## Aliases
 This library contains the following aliases for changing your camera settings.
@@ -37,7 +37,7 @@ wb 5000
 wb auto
 ```
 
-## Usage
+## Installation
 Make a folder for these types of scripts and aliases to exist, if you don't have one already.
 ```bash
 mkdir -p ~/.bash
