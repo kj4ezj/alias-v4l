@@ -4,6 +4,7 @@ This library wraps Video4Linux commands that allow you to change settings on you
 ### Index
 1. [Aliases](README.md#aliases)
     1. [cameras](README.md#cameras)
+    1. [exposure](README.md#exposure)
     1. [wb](README.md#wb)
 1. [Usage](README.md#usage)
 
@@ -12,6 +13,9 @@ This library contains the following aliases for changing your camera settings.
 
 ### cameras
 List the available video input devices.
+
+### exposure
+Change the exposure. Requires an argument of either the absolute exposure, or `auto`.
 
 ### wb
 Change the white balance. Requires an argument of either the desired color temperature in Kelvin, or `auto`.
